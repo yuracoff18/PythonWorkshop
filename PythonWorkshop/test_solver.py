@@ -1,3 +1,9 @@
+"""
+Por que no me pasa la prueba!!!!!!!
+- Yura Hernandez H
+
+"""
+
 import unittest
 
 from solver import Solver
@@ -10,10 +16,7 @@ class MyTestCase(unittest.TestCase):
 
         self.assertRaises(Exception)
 
-    def test_something(self):
-        self.assertEqual(True, False)
-
 
 if __name__ == '__main__':
     unittest.main()
-
+    
